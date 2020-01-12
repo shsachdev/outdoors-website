@@ -131,7 +131,7 @@ nav {
   background-size: cover;
 }
 
-/* here we add the main message */ 
+/* here we add the main message */
 
 .main-message {
   width: 100%;
@@ -169,4 +169,17 @@ nav {
 
 .btn:hover {
   background-color: #ce587b;
+}
+
+/*experience the outdoors*/
+
+.experience-outdoors {
+  padding: 0;
+}
+
+.title-heading {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 10rem;
+  color: rgba(0,0,0,.7);
 }
