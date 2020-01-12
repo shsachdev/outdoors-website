@@ -183,3 +183,24 @@ nav {
   margin-bottom: 10rem;
   color: rgba(0,0,0,.7);
 }
+
+.title-heading h3 {
+  font-size: 1.4rem;
+}
+
+.title-heading h1 {
+  font-family: 'Aldrich', sans-serif;
+  font-size: 2rem;
+  margin: .5rem 0 1rem;
+}
+
+.title-heading p {
+  text-transform: lowercase;
+}
+
+.job_list {
+  width: 900px;
+  height: 300px;
+  vertical-align: middle;
+  border: 3px dotted rgba(49, 24, 131, 0.9);
+}
