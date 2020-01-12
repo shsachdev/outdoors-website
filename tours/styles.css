@@ -14,7 +14,6 @@ html {
 
 a {
   text-decoration: none;
-  color: white; /* I added this, can be removed */
 }
 
 ul {
@@ -180,7 +179,8 @@ nav {
 .title-heading {
   text-align: center;
   text-transform: uppercase;
-  margin-bottom: 10rem;
+  margin-bottom: 5rem;
+  /* margin-bottom: 10rem; it was orginally this */
   color: rgba(0,0,0,.7);
 }
 
@@ -199,8 +199,27 @@ nav {
 }
 
 .job_list {
-  width: 900px;
-  height: 300px;
+  width: 1000px;
+  margin: auto;
+  height: 500px;
   vertical-align: middle;
-  border: 3px dotted rgba(49, 24, 131, 0.9);
+  border: 1.5px dotted rgba(49, 24, 131, 0.9);
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+}
+
+.btn-two {
+  display: flex;
+  justify-content: center;
+  background-color: #eb648c;
+  border-radius: 2rem;
+  color: #fafafa;
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 1.5rem 3.5rem;
+  text-transform: uppercase;
+  transition: background-color 650ms;
+  /* transform: translateY(-200%); */
 }
