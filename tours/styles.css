@@ -146,4 +146,19 @@ nav {
 .main-message h1 {
   font-family: 'Aldrich', sans-serif;
   font-size: 4rem;
+  margin: 1rem 0;
+}
+
+.main-message p {
+  text-transform: lowercase;
+}
+
+.btn {
+  transform: translateX(-10%);
+  background-color: #eb648c;
+  border-radius: 2rem;
+  color: #fafafa;
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 1.5rem 3.5rem;
 }
