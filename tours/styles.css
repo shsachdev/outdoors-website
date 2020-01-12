@@ -257,3 +257,32 @@ nav {
   transform: translate(-50%, -50%);
   text-align: center;
 }
+
+.testimonial-text-box {
+  padding: 0 1.5rem;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.testimonial-text-box p {
+  font-size: 40px;
+}
+
+.testimonial-text-box i {
+  position: absolute;
+  top: -8rem;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.btn-three {
+  transform: translateX(5%);
+  background-color: #eb648c;
+  border-radius: 2rem;
+  color: #fafafa;
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 1.5rem 3.5rem;
+  text-transform: uppercase;
+  transition: background-color 650ms;
+}
