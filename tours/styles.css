@@ -161,4 +161,10 @@ nav {
   display: inline-block;
   margin-top: 2rem;
   padding: 1.5rem 3.5rem;
+  text-transform: uppercase;
+  transition: background-color 650ms;
+}
+
+.btn:hover {
+  background-color: #ce587b;
 }
