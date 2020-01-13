@@ -286,3 +286,28 @@ nav {
   text-transform: uppercase;
   transition: background-color 650ms;
 }
+
+.begin-adventure {
+  /* padding-bottom: 1px; */
+}
+
+.email-form {
+  font-size: 25px;
+}
+
+.submission-field {
+  width: 300px; border: 1px solid #999999; padding: 10px;
+}
+
+.btn-email {
+  transform: translateX(-10%);
+  background-color: #eb648c;
+  border-radius: 2rem;
+  color: #fafafa;
+  display: inline-block;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  padding: 1.5rem 3rem;
+  text-transform: uppercase;
+  transition: background-color 650ms;
+}
